@@ -8,13 +8,16 @@
  .bkg {
     background-color: rgb(240, 9, 9) !important;
  }
+ /*this is something i ended up not using */
 
  .stars {
     background-image: url("stars.jpg");
+    /*stars background i made that fills up the blocks using this class*/
  }
 
 .box {
     background-color: blue;
+    /*ended up changing this to stars*/
 
 }
 
@@ -22,11 +25,13 @@
 body {
 
     color:black;
+    /*just a color for text*/
 }  
 
 h1 {
     font-size: 50px;
     color: antiquewhite;
+    /*just text and font size*/
 }
 
 
