@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TicTacToe</title>
+    <link rel="stylesheet" href="week11.css">
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.css">
+</head>
+<body class="bg-secondary p-5 m2">
+<!-- this is the background margin and padding for the whole website and all divs are styled with bootstrap-->
+
+    <div class="container p-7 m-7">
+        <h1 id="titleText" class="bg-primary fs-1 fw-bolder fst-italic  rounded border m-5 p-4 ">TIC TACTICAL TOE</h1>
+<!-- this is the tic tac toe header and main title-->
+        
+        <p id="playersTurn" class="text-center fs-1 fw-bold">Begin Battle</p>
+<!--this is the title that changes based on whos turn it is and who wins-->
+        <div id="hid" class="alert alert-success" role="alert">
+            <h4 class="alert-heading">BATTLE IS OVER AND A VICTOR STANDS SUPREME!!!</h4>
+        </div>
+        <!--this is the alert for when someone wins-->
+        <div id="hid1" class="alert alert-danger" role="alert">
+            <h4 class="alert-heading">THERE IS NO WINNER TRY AGAIN WHEN MORE SUITED FOR BATTLE!!!</h4>
+        </div>
+        <!--this is the alert for when it is a tie and there is no winner -->
+<!-- this is the button that restarts the game using javascript also styled with bootstrap-->
+        <button id="restartBTN" class="btn btn-primary">Restart Battle</button>
+<!--this is the main section of the game and this is all the divs that are used and id'd so that they can be selected indivudually-->
+        <div id="game" class="m-4">
+            <div class="box boxTP stars" id="0"></div>
+            <div class="box boxTM stars" id="1"></div>
+            <div class="box boxTR stars" id="2"></div>
+            <div class="box boxML stars" id="3"></div>
+            <div class="box boxM stars" id="4"></div>
+            <div class="box boxMR stars" id="5"></div>
+            <div class="box boxBL stars" id="6"></div>
+            <div class="box boxBM stars" id="7"></div>
+            <div class="box boxBR stars" id="8"></div>
+
+
+        </div>
+
+        
+
+
+    </div>
+
+    <hr class="m-5 p-2">
+    <!--this is just a horizontal line-->
+<!-- this is a footer that contains some text-->
+    <footer class="text-center fw-bold fs-2 p-10">May The Force Be With You </footer>
+
+    
+
+
+<!--these are the links to java and css so that it can be styled and run properly -->
+    <script src="week11.js"></script>
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+</body>
+</html>

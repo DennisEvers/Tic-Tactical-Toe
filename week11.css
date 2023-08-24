@@ -1,0 +1,175 @@
+
+.xwing {
+    display:block;
+    max-width: 100%;
+    background-image: url("https://img.favpng.com/12/22/22/x-wing-starfighter-star-wars-x-wing-miniatures-game-clip-art-png-favpng-67zAWrXxBCiBxdugGYc9uEAet.jpg");
+/* this is the block i was going to use but ended up going a different route */
+}
+ .bkg {
+    background-color: rgb(240, 9, 9) !important;
+ }
+
+ .stars {
+    background-image: url("stars.jpg");
+ }
+
+.box {
+    background-color: blue;
+
+}
+
+
+body {
+
+    color:black;
+}  
+
+h1 {
+    font-size: 50px;
+    color: antiquewhite;
+}
+
+
+
+
+
+
+.boxTP {
+    height: 150px;
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom-style: solid;
+    border-right-style: solid;
+    background-color: blue;
+    border-color: antiquewhite;
+    background-image: url(stars.jpg);
+
+}
+
+#game {
+   width: 450px;
+   display: flex;
+   flex-wrap: wrap;
+   margin-top: 40px; 
+}
+
+.container {
+    
+    padding: 45px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+
+}
+
+.boxTM {
+    height: 150px;
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom-style: solid;
+    border-right-style: solid;
+    border-left-style: solid;
+    background-color: blue;
+    border-color: antiquewhite;
+
+}
+.boxTR {
+    height: 150px;
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    background-color: blue;
+    border-color: antiquewhite;
+
+}
+
+.boxML {
+    height: 150px;
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom-style: solid;
+    border-right-style: solid;
+    border-top-style: solid;
+    background-color: blue;
+    border-color: antiquewhite;
+
+}
+
+.boxM {
+    height: 150px;
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-style: solid;
+    background-color: blue;
+    border-color: antiquewhite;
+
+}
+
+.boxMR {
+    height: 150px;
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    border-top-style: solid;
+    background-color: blue;
+    border-color: antiquewhite;
+
+}
+
+.boxBL {
+    height: 150px;
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top-style: solid;
+    border-right-style: solid;
+    background-color: blue;
+    border-color: antiquewhite;
+
+}
+
+.boxBM {
+    height: 150px;
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top-style: solid;
+    border-right-style: solid;
+    border-left-style: solid;
+    background-color: blue;
+    border-color: antiquewhite;
+
+
+}
+
+.boxBR {
+    height: 150px;
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top-style: solid;
+    border-left-style: solid;
+    background-color: blue;
+    border-color: antiquewhite;
+
+}
